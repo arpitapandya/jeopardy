@@ -1,0 +1,97 @@
+  body {
+    min-height: 100vh;
+    background-image: linear-gradient( black, #060ce9);
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  
+  #loading-gif {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #new-game-btn{
+    display: block;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid;
+    margin: 0px auto 20px auto;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: #4e53e4;
+  }
+
+  #new-game-btn:hover {
+    background-color: teal;
+  }
+  
+  .table {
+    background-color: #060ce9;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table thead {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .table tbody {
+    font-family: 'Stoke', serif;
+    font-size: .5rem;
+  }
+  
+  .table th {
+    width: 16.67%;
+    height: 75px;
+    border: 2px solid black;
+    cursor: default;
+  }
+  
+  .game-square {
+    width: 16.60%;
+    height: 90px;
+    cursor: pointer;
+    background-color: #060ce9;
+    border: 2px solid black;
+  }
+
+  .game-square:hover {
+    background-color: lightsalmon;
+  }
+  
+  .fa-question-circle {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .answered {
+    background-color: #a26900;
+    cursor: default;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .showing {
+    display: inline-block;
+    margin: auto;
+  }
